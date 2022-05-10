@@ -1,0 +1,34 @@
+<header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-photo-video">&nbsp;
+                
+            </i>
+            <strong style="font-size: 30px;">ArtX</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+
+
+        </div>
+        <div fxFlex fxLayoutAlign='end' fxLayoutGap='20px'>
+            <button routerLink="products" class="btn btn-primary" style="margin-right: 10px;">
+                Products
+            </button>
+            <button *ngIf="!loggedIn" routerLink="login" class="btn btn-primary" style="margin-right: 10px;">
+                Login
+            </button>
+            <button *ngIf="!loggedIn" routerLink="signup" class="btn btn-primary" style="margin-right: 10px;">
+                Signup
+            </button>
+            <button *ngIf="loggedIn" (click)="onClickLogout()" class="btn btn-danger" style="margin-right: 10px;">
+                Logout
+            </button>
+            <button routerLink="cart" class="btn btn-primary">
+                <i style="font-size: 15px;" class="fas fa-cart-plus"></i>
+                <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+            </button>
+        </div>
+    </div>
+</header>

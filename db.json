@@ -1,0 +1,262 @@
+{
+  "products": [
+{
+  "id": 1,
+  "title": "Nature Green Painiting",
+  "price": 109.95,
+  "description": "Les gens y vont notamment pour déguster un bon hamburger assis près de la fontaine ou tout en regardant un spectacle de danse.",
+  "category": "nature paintings",
+  "image": "https://images.saatchiart.com/saatchi/704660/art/6926703/5996049-AHRVPAKW-7.jpg",
+  "rating": {
+      "rate": 3.9,
+      "count": 120
+  }
+},
+{
+  "id": 2,
+  "title": "Nature Autumn Painting ",
+  "price": 22.3,
+  "description": "Côté magasins, on peut trouver de tout dans un centre commercial : hypermarchés pour faire ses courses, boutiques de vêtements et de sport, librairies, etc.",
+  "category": "nature paintings",
+  "image": "https://m.media-amazon.com/images/I/81vfUoMCcOL._AC_SL1000_.jpg",
+  "rating": {
+      "rate": 4.1,
+      "count": "259"
+  }
+},
+{
+  "id": 3,
+  "title": "Nature Sailing Painting",
+  "price": 55.99,
+  "description": "Mon chat adore se blottir sur le canapé devant la télévision. La cuisine est la pièce préférée de ma maison.",
+  "category": "nature paintings",
+  "image": "https://www.artmajeur.com/medias/standard/m/a/maja-dokic/artwork/13272866_20200508-124801.jpg",
+  "rating": {
+      "rate": 4.7,
+      "count": 500
+  }
+},
+{
+  "id": 4,
+  "title": "Nature water Painting",
+  "price": 15.99,
+  "description": " J’ai décidé de peindre les murs en jaune et d’y installer mon piano. ",
+  "category": "nature paintings",
+  "image": "https://www.brigittegranton.com/uploads/9/3/9/1/93916298/21116-last-show-24x36-22-oil_orig.jpeg",
+  "rating": {
+      "rate": 2.1,
+      "count": 430
+  }
+},
+{
+  "id": 5,
+  "title": "Nature Ocean Painting",
+  "price": 695,
+  "description": "J’ai fait de gros progrès en français, je le comprends et je sais le parler et l’écrire bien mieux maintenant.",
+  "category": "photos",
+  "image": "https://static.photocdn.pt/images/articles/2019/05/14/fine_art_photography_definition.jpg",
+  "rating": {
+      "rate": 4.6,
+      "count": 400
+  }
+},
+{
+  "id": 6,
+  "title": "Nature Woods ",
+  "price": 168,
+  "description": "Les enfants travaillent bien à l’école, même si ma fille a quelques difficultés en mathématiques.",
+  "category": "photos",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg",
+  "rating": {
+      "rate": 3.9,
+      "count": 70
+  }
+},
+{
+  "id": 7,
+  "title": "Beach Photography",
+  "price": 9.99,
+  "description": "Je suis heureuse de vous revoir le mois prochain. Nous passerons les fêtes de Noël ensemble.",
+  "category": "photos",
+  "image": "https://creativenatureart.com/wp-content/uploads/2019/06/ID10C20-C18U0413-Driftwood-Beach-1.jpg",
+  "rating": {
+      "rate": 3,
+      "count": 400
+  }
+},
+{
+  "id": 8,
+  "title": "Colorful Photography",
+  "price": 10.99,
+  "description": "Dans ma famille, on adore goûter les spécialités locales alors on a tout essayé, de la choucroute à la tarte flambée en passant par les kouglofs.",
+  "category": "photos",
+  "image": "https://www.mickeyshannon.com/photos/fine-art-nature-photography.jpg",
+  "rating": {
+      "rate": 1.9,
+      "count": 100
+  }
+},
+{
+  "id": 9,
+  "title": "Canvas Women ",
+  "price": 64,
+  "description": "Félix n'arrête pas de manger des bredele (des biscuits spéciaux d’ici). C'est vrai qu'ils sont très bons mais j'ai peur qu'il tombe malade.",
+  "category": "canvas",
+  "image": "https://m.media-amazon.com/images/I/615iCRLyq0L._SL1008_.jpg",
+  "rating": {
+      "rate": 3.3,
+      "count": 203
+  }
+},
+{
+  "id": 10,
+  "title": "Canvas Path",
+  "price": 109,
+  "description": "Je t'aurais bien envoyé une photo mais nous n'avons pas d'appareil. Mes parents ont insisté pour qu'on prenne nos chaussures de marche.",
+  "category": "canvas",
+  "image": "https://rukminim1.flixcart.com/image/416/416/jngcn0w0/painting/u/n/b/pacp-s-039-pixelartz-original-imafa4y9zzzwnhrg.jpeg?q=70",
+  "rating": {
+      "rate": 2.9,
+      "count": 470
+  }
+},
+{
+  "id": 11,
+  "title": "Canvas Birds",
+  "price": 109,
+  "description": "J'espère que tu vas bien et que tes vacances au ski se passent bien aussi.",
+  "category": "canvas",
+  "image": "https://img3.junaroad.com/uiproducts/16958225/pri_175_p-1582636602.jpg",
+  "rating": {
+      "rate": 4.8,
+      "count": 319
+  }
+},
+{
+  "id": 12,
+  "title": "Canvas View",
+  "price": 114,
+  "description": "Quand il doit rencontrer un client important, Marc n’hésite pas à s’habiller sobrement.",
+  "category": "canvas",
+  "image": "https://prd-static-default.sf-cdn.com/resources/images/store/2020/global/1140x1140/WF-120496_NPI_SplitCanvasSet_1140x1140_11x14.jpg",
+  "rating": {
+      "rate": 4.8,
+      "count": 400
+  }
+},
+{
+  "id": 13,
+  "title": "Canvas Tree",
+  "price": 599,
+  "description": "Sa secrétaire Lili porte des lunettes. Elle adore mettre sa jupe à fleurs et un chemisier assorti lorsqu’il fait beau. ",
+  "category": "canvas",
+  "image": "https://www.difol.net/wp-content/uploads/2014/11/poliester-canvas-1-520x300.jpg",
+  "rating": {
+      "rate": 2.9,
+      "count": 250
+  }
+},
+{
+  "id": 14,
+  "title": "Canvas Sky",
+  "price": 999.99,
+  "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+  "category": "canvas",
+  "image": "https://www.canvasfactory.com/fr/images/detailed/22/Split_Canvas_Prints_5r08-uq.jpg",
+  "rating": {
+      "rate": 2.2,
+      "count": 140
+  }
+},
+{
+  "id": 15,
+  "title": "Animal color birds painting",
+  "price": 56.99,
+  "description": "En été, lorsqu’il fait chaud, Lili et Marc vont à plage pendant le weekend. Ils mettent des lunettes de soleil, une belle casquette, un T-shirt, des shorts et des sandales. Ils aiment passer des journées ensemble au bord de la mer.",
+  "category": "animal paintings",
+  "image": "https://image.made-in-china.com/202f0j00aJWQHTtITlcg/Animal-Canvas-Art-Painting-for-Birds.jpg",
+  "rating": {
+      "rate": 2.6,
+      "count": 235
+  }
+},
+{
+  "id": 16,
+  "title": "Animal lions painting",
+  "price": 29.95,
+  "description": "Mes parents ont insisté pour qu'on prenne nos chaussures de marche, ils veulent qu'on aille faire des randonnées dans les montagnes. J'espère que tu vas bien et que tes vacances au ski se passent bien aussi. ",
+  "category": "animal paintings",
+  "image": "https://s31531.pcdn.co/wp-content/uploads/2012/06/LionBrothers1.jpg.optimal.jpg",
+  "rating": {
+      "rate": 2.9,
+      "count": 340
+  }
+},
+{
+  "id": 17,
+  "title": "Animal fox painting",
+  "price": 39.99,
+  "description": "Les passants semblent moins pressés, et s’attardent plus facilement devant une devanture ou dans les rayons. Les dernières semaines avant Noël se déroulent dans une ambiance joyeuse et féérique.",
+  "category": "animal paintings",
+  "image": "https://thumbs.dreamstime.com/b/lynx-watercolor-predator-animals-wildlife-painting-art-t-shirt-poster-design-114209100.jpg",
+  "rating": {
+      "rate": 3.8,
+      "count": 679
+  }
+},
+{
+  "id": 18,
+  "title": "Animal sheeps painting ",
+  "price": 9.85,
+  "description": "Le lendemain, le 25 décembre, est le jour de Noël. C’est un jour de fête où l’on invite la famille plus éloignée à partager le repas de midi. C’est souvent un repas fastueux et long : il n’est pas rare de sortir.",
+  "category": "animal paintings",
+  "image": "https://images.squarespace-cdn.com/content/v1/57a7fd15414fb58fa3ed8bfa/1475290593269-BT9Y74M3FYC3IBEDVWTZ/Farm-Animals-no-1-+original+watercolour+painting+by+Kerrie+Woodhouse",
+  "rating": {
+      "rate": 4.7,
+      "count": 130
+  }
+},
+{
+  "id": 19,
+  "title": "Animal deers painting",
+  "price": 7.95,
+  "description": "Côté magasins, on peut trouver de tout dans un centre commercial : hypermarchés pour faire ses courses, boutiques de vêtements et de sport, librairies, etc. ",
+  "category": "animal paintings",
+  "image": "https://w0.peakpx.com/wallpaper/86/894/HD-wallpaper-%E1%83%A6-sunset-in-forest-%E1%83%A6-paintings-animals-attractions-in-dreams-deer-sunsets-landscapes-forests-evening-scenery-animals-lovely-christmas-love-four-seasons-creative-pre-made-trees-best.jpg",
+  "rating": {
+      "rate": 4.5,
+      "count": 146
+  }
+},
+{
+  "id": 20,
+  "title": "Animal bird painting",
+  "price": 12.99,
+  "description": "Le centre commercial est l'endroit idéal pour passer un bon moment avec sa famille, ses amis ou ses collègues de travail. Les gens y vont notamment pour déguster un bon hamburger assis près de la fontaine ou tout en regardant un spectacle de danse.",
+  "category": "animal paintings",
+  "image": "https://www.artranked.com/images/8c/8ca8d7b508cc23abcd335dd24f75e8cd.jpeg",
+  "rating": {
+      "rate": 3.6,
+      "count": 145
+  }
+}
+],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

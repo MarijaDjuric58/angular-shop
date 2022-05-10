@@ -1,0 +1,69 @@
+<div class='row'>
+    <div class='col-md-4 offset-md-4'>
+        <div class='guest-form-card card'>
+            <div class='card-header text-center background-color-primary'>
+                <h3>Register</h3>
+            </div>
+            <div class='card-body'>
+                <section>
+                    <form #f="ngForm" (ngSubmit)='onSubmit(f)'>
+
+                        <div class='form-group'>
+                            <label for='email'>E-mail</label>
+                            <input type='email' ngModel #emailInput='ngModel' name='email' required id='email' class='form-control'>
+                            <mat-error *ngIf="emailInput.hasError('required')"><p>Field should not be empty</p></mat-error>
+                            <mat-error *ngIf="!emailInput.hasError('required')"><p>Please use the correct email format</p></mat-error>
+                        </div>
+    
+                        <div class='form-group' hintLabel='Please enter min 8 char'>
+                            <label for='password'>Password</label>
+                            <input id='password' type="password" class='form-control' ngModel name='password' required minlength='8' #userInput='ngModel' password>
+                            <mat-hint align='end'><p>{{ userInput.value?.length }}/8</p></mat-hint>
+                        </div>
+    
+                        <div class='form-group'>
+                            <label for='name'>Name</label>
+                            <input id='name' class='form-control' ngModel name='name' required #nameInput='ngModel' text>
+                        </div>
+    
+                        <div class='form-group'>
+                            <label for='phone'>Phone</label>
+                            <input type='tel' id='phone' class='form-control' ngModel name='phone' required #telInput='ngModel' text>
+                        </div>
+    
+                        <div class='form-group'>
+                            <label for='adress'>Adress</label>
+                            <input id='adress' class='form-control' ngModel name='adress' required #adressInput='ngModel' text>
+                        </div><br>
+    
+                        <div class='form-group'>
+                            <label for='gender'>Choose gender </label>
+                            <select ngModel required name='gender'>
+                                <option value='male'><p>M</p></option>
+                                <option value='female'><p>F</p></option>
+                            </select>
+                        </div><br>
+    
+                        
+                        <div class='form-group'>
+                            <input type='checkbox' id='acceptance' ngModel name='acceptance' required>
+                            <label for='acceptance'>I agree to the Terms of Service and Privacy Policy</label>
+                        </div><br>
+                        
+    
+                        
+                        <button class='btn btn-primary' type="submit" mat-raised-button >Signup</button>
+                        <mat-label *ngIf='errorExists'>{{errorText}}</mat-label>
+                        <a routerLink='/login'><p>Go back</p></a>
+                        
+                        
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,43 @@
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+        <div class="item">
+            <a (click)="filter('')">
+                <img src="https://thumbs.dreamstime.com/b/grunge-paint-splatter-art-logo-4882488.jpg" alt="">
+                <h6>All products</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)="filter('canvas')">
+                <img src="https://thumbs.dreamstime.com/b/colored-paintings-logo-design-illustration-vector-graphic-template-190120833.jpg" alt="">
+                <h6>Canvas</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)="filter('paintings')">
+                <img src="https://cdn.statically.io/img/i.pinimg.com/originals/8b/d4/6d/8bd46d56ab465075c6232194f4f61105.jpg" alt="">
+                <h6>Paintings</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)="filter('photos')">
+                <img style="width: 62px; margin-top: 5px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7n9MC14BmD6APyOmY9r6ygGsaU5A0F4xUUA&usqp=CAU" alt="">
+                <h6>Photos</h6>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="">
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>
+                <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>
+                <p><strong>Price:</strong> ${{item.price}}</p>
+                <button class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>
+            </div>
+        </ng-container>
+
+    </div>
+</div>
